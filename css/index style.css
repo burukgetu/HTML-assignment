@@ -1,0 +1,21 @@
+.header {
+    background: rgba(90, 15, 15, 0.938);
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 150px;
+}
+
+.nav-parent {
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.navbar {
+    color: burlywood;
+    font-size: 40px;
+    background-color: black;
+}
