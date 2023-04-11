@@ -10,7 +10,7 @@
 
 .header {
    height: 100px;
-   width: auto;
+   width: 100%;
    padding: 0 8%;
    background: #912525;
    position: relative;
@@ -20,35 +20,38 @@
    display: flex;
    flex-wrap: nowrap;
    justify-content: space-evenly;
-}
+} */
 
-/*nav {
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-} */
+    width: auto;
+} 
 
 .logo {
     width: 100px;
     height: 100px;
     padding: 10px;
+    
 }
 
 .company-name {
    color: #fff;
+   left: 28%;
+   flex: 1;
 }
 
 .nav-links {
     padding: 28px 0;
-    
 }
 
 .search {
     position: absolute;
     left: 29%;
     width: 30%;
-    max-width: 500px;  
-    
+    max-width: 40%px;
+    margin: auto;  
 }
 
 .nav-links li {
@@ -86,7 +89,13 @@
     cursor: pointer;
 }
 
-
+.log-in {
+    background: rgb(15, 243, 117);
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
 .search form {
     background: #fff;
@@ -146,5 +155,9 @@
     display: grid;
     grid-template-rows: 50px 500px;
     grid-gap: 10px;
+}
+
+.filter option {
+    margin: 25px;
 }
 
