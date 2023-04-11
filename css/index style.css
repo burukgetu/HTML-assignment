@@ -6,9 +6,7 @@
     max-width: 1500px;
 }
 
-body {
-    align-self: center;
-}
+
 
 .header {
    height: 100px;
@@ -43,6 +41,7 @@ nav {
 
 .nav-links {
     padding: 28px 0;
+    padding-left: 10px;
 }
 
 .search {
@@ -54,6 +53,7 @@ nav {
 .nav-links li {
       display: inline-block;
       margin: 0 10px;
+      
 }
 
 .nav-links li a {
@@ -121,6 +121,7 @@ nav {
     background: #ff3d00;
     display: flex;
     width: auto;
+    height: 100px;
     justify-content: space-between;
 }
 
@@ -132,6 +133,7 @@ nav {
    justify-content: space-evenly;
    border: 5px;
    flex-wrap: wrap;
+   height: 100px;
 }
 
 .images a:hover {
@@ -152,9 +154,16 @@ nav {
     display: grid;
     grid-template-rows: 50px 500px;
     grid-gap: 10px;
+    height: 50px;
 }
 
 .filter option {
     margin: 25px;
 }
+
+
+
+
+/* footer */
+
 
