@@ -10,17 +10,16 @@
 
 .header {
    height: 100px;
-   width: 100%;
+   width: auto;
    padding: 0 8%;
    background: #912525;
    position: relative;
-   
 }
 
-.nav-header {
-    display: flex;
+/*.nav-header {
+   display: flex;
    flex-wrap: nowrap;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
 /*nav {
@@ -31,19 +30,25 @@
 
 .logo {
     width: 100px;
-    padding-right: 30px;
-    flex: 0;
+    height: 100px;
+    padding: 10px;
 }
 
-.nam {
-   left: 20%;
+.company-name {
    color: #fff;
-   flex: 0;
 }
 
 .nav-links {
     padding: 28px 0;
-    flex: 3;
+    
+}
+
+.search {
+    position: absolute;
+    left: 29%;
+    width: 30%;
+    max-width: 500px;  
+    
 }
 
 .nav-links li {
@@ -81,13 +86,7 @@
     cursor: pointer;
 }
 
-.search {
-    position: absolute;
-    left: 29%;
-    width: 30%;
-    max-width: 500px;  
-    flex: 5; 
-}
+
 
 .search form {
     background: #fff;
