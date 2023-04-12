@@ -125,23 +125,45 @@ html, body {
     background: #ff3d00;
     display: flex;
     box-sizing: border-box;
-    height: 1000px;
+    min-height: 1000px;
+    max-height: 2000px;
     justify-content: space-between;
+    margin: 15px 15px;
 }
 
 .image-gallery {
     background: aqua;
     height: 900px;
-    width: 60%;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 15px 15px;
+    overflow: scroll;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.image-gallery img {
+    max-width: 500px;
+    max-height: 400px;
+    margin: 15px 25px;
 }
 
 .filter {
     background: chartreuse;
     height: 900px;
-    width: 40%;
+    width: 20%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-
+.filter button {
+    width: 150px;
+    height: 30px;
+    margin: 5px;
+}
 
 
 
@@ -170,7 +192,7 @@ ul{
 .footer{
 	background-color: #24262b;
     padding: 70px 0;
-    margin: auto 0;
+    margin: 10px 0;
 }
 .footer-col{
    width: 25%;
